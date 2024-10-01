@@ -56,9 +56,12 @@
                         <br class="hidden-ss"><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;+1&nbsp;945-216-2329&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;
                         <br class="hidden-ss"><i class="fas fa-envelope" style="color: #10948d; text-decoration: none; background-color: transparent;"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:mohammeduzair07@gmail.com" style="text-transform: lowercase;">mohammeduzair07@gmail.com</a>
                     </div>
-                    <p class="lead mb-5">Academically, I have completed B.Tech in Information Technology and have an inclination towards Cloud Computing. In my pursuit of learning Cloud Computing, I have completed several industry recognized certifications and applied the skills in various real-time scenarios.<br/><br/>
-                        I have been constantly exposed to new cultures and diverse groups of people. This has given me the ability to adapt to any situation and gain a broader perspective. I enjoy collaborating with people and solving problems.<br/><br/>    
-                        I aim to design highly scalable and fault-tolerant systems for an esteemed organization, which would be rewarding in terms of learning experience and contribute to organizational and personal growth.      
+                    <p class="lead mb-5">Skilled engineer with over 3.5 years of experience in designing, implementing, and maintaining cloud
+                        infrastructure solutions across various platforms. My aim is to design highly scalable and fault-tolerant systems
+                        for an esteemed organization, which would be rewarding in terms of learning experience and contribute to
+                        organizational and personal growth.<br/><br/>
+                        Academically, I have completed B.Tech in Information Technology and have an inclination towards Cloud Computing. In my pursuit of learning Cloud Computing, I have completed several industry recognized certifications and applied the skills in various real-time scenarios.<br/><br/>
+                        I have been constantly exposed to new cultures and diverse groups of people. This has given me the ability to adapt to any situation and gain a broader perspective. I enjoy collaborating with people and solving problems.
                         </p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/mohammeduzairmohiuddin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -74,19 +77,33 @@
                     <h2 class="mb-5"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;&nbsp;Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">HashiCorp</h3>
+                            <div class="subheading mb-3">Lead Support Engineer - Secure Backline</div>
+                            <p>
+                                <li>Led high-impact customer escalations involving complex technical issues with Vault and Boundary, significantly improving customer retention.</li>
+                                <li>Played a key role in the initial deployment of the Kubernetes Vault Secrets Operator for a significant customer, leading to organizational-wide adoption.</li>
+                                <li>Collaborated closely with engineering teams to reproduce critical bugs before GA and contributed to the improvement of Vault's resilience at scale through supportability requests such as addressing lease explosions.</li>
+                                <li>Developed an internal automation tool using Terraform to help junior engineers spin up reproduction environments quickly.</li>
+                                <li>Set up monitoring for HashiCorp Boundary using Prometheus and Grafana, creating actionable dashboards that enhanced visibility into system performance.</li>
+                                <li>Participated in the Bring Your Questions initiative, offering deep technical insights into HashiCorp Vault and Boundary to both internal teams and customers.</li>
+                                <li>Partnered in authoring "Vault on Kubernetes Deployment Guide", provided multiple training sessions to increase team's efficiency to handle production-grade kubernetes issues.</li>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">WALTLabs.io</h3>
                             <div class="subheading mb-3">Cloud Engineer</div>
                             <p>
-                                <li>Implemented HashiCorp Vault in a kubernetes cluster using Terraform for a client to centralize secret management.</li>
-                                <li>Injected secrets in Kubernetes pods using vault annotations and helm templates.</li>
-                                <li>Created common/library helm charts to keep code DRY.</li>
-                                <li>Created alerts for Lets Encrypt deployments.</li>
-                                <li>Installed and Configured Linkerd via Helm based deployment.</li>
-                                <li>Applied Pod Disruption Budget values for K8s workloads.</li>
-                                <li>Upgraded Traefik charts to v10 without downtime and Enabled Datadog tracing.</li>
+                                <li>Developed and maintained Kubernetes-based infrastructure on both on-prem and AWS environments, managing over 50+ nodes.</li>
+                                <li>Developed a POC custom automation tool that monitors the health of nodes in a Kubernetes cluster, detecting issues such as high resource usage and node failures.</li>
+                                <li>Automated infrastructure provisioning and configuration using Terraform, and Ansible reducing manual intervention by 70%.</li>
+                                <li>Created Helm charts for Kubernetes to automate the deployment of microservices and ensure consistency across environments.</li>
+                                <li>Tested disaster recovery (DR) plans with AWS Route 53 and Multi-AZ RDS, ensuring near-zero downtime in failover scenarios.</li>
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2022 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2022 - August 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
@@ -106,15 +123,6 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Jan 2021 - Jan 2022</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">KodeKloud Engineer</h3>
-                            <div class="subheading mb-3">DevOps Engineer Nautilus, xFusionCorp</div>
-                            <p>
-                                <li>Worked as a System administrator and DevOps Engineer in a fictional company named ”xFusionCorp” on their website named "kodekloud".</li>
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </section>
             <hr class="m-0" />
@@ -122,6 +130,18 @@
             <section class="resume-section" id="projects">
                 <div class="resume-section-content">
                     <h2 class="mb-5"><i class="fas fa-laptop-code"></i>&nbsp;&nbsp;&nbsp;Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vault Integration in Kubernetes</h3>
+                            <div class="subheading mb-3">HashiCorp Vault, Kubernetes, Terraform</div>
+                            <p>
+                                <li>Implemened HashiCorp Vault within Kubernetes for secure secrets management and automated secret injection into application pods at runtime.</li>
+                                <li>Leveraged Vault's capability to generate dynamic secrets for databases (e.g., PostgreSQL) on-the-fly, reducing the risk of credential exposure and ensuring secure database connections.</li>
+                                <li>Defined and managed various secret engines in Vault, including key/value stores and cloud-based secrets engines such as AWS and Azure.</li>
+                                <li>Created policies and access controls to limit the exposure of secrets, ensuring that only authorized applications and users could access sensitive data.</li>
+                            </p>
+                        </div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Avaya Proactive Outreach Manager - Component of CCaaS</h3>
@@ -166,15 +186,6 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">WordPress Deployment to AWS using Ansible and Terraform</h3>
-                            <div class="subheading mb-3">AWS IAM, VPC, S3, Route53, ELB, ASG, RDS, Ansible and Terraform</div>
-                            <p>
-                                <li>Deployed a wordpress blog in order to understand the interactions between various AWS services and used infrastructure orchestration tools to automate the deployment through scripts and minimize manual work.</li>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
                             <h3 class="mb-0">AWS Site-to-Site VPN</h3>
                             <div class="subheading mb-3">AWS EC2, AWS VPC</div>
                             <p>
@@ -207,7 +218,7 @@
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"><i class="fas fa-circle"></i></span>
-                            C, Python, Java, MySQL, JavaScript(Node.js)
+                            Go, Python, Bash, HCL
                         </li>
                     </ul>
                     <div class="subheading mb-3">Cloud Services</div>
@@ -228,7 +239,7 @@
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"><i class="fas fa-circle"></i></span>
-                            Kubernetes, Docker, Service Meshes(Istio)
+                            Kubernetes, Docker, Service Meshes(Consul, Istio)
                         </li>
                     </ul>
                     <div class="subheading mb-3">Monitoring Tools</div>
@@ -242,7 +253,21 @@
                     <ul class="fa-ul">
                         <li>
                             <span class="fa-li"><i class="fas fa-circle"></i></span>
-                            Linux, Jenkins, Ansible, Terraform, Chef, Packer
+                            Linux, Jenkins, Ansible, Chef, Packer
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">HashiCorp Suite</div>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-circle"></i></span>
+                            Vault, Boundary, Terraform and Consul
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3">Others</div>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-circle"></i></span>
+                            Public Key Infrastructure, OpenID Connect
                         </li>
                     </ul>
                 </div>
